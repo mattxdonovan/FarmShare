@@ -39,6 +39,7 @@ export default class RoutesConfig extends Config {
         views: {
           'tab-landing': {
             templateUrl: 'client/templates/users.html',
+            controller: 'ProductspgCtrl as products'
           }
         }
       })

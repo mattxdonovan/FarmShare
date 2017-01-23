@@ -14,7 +14,7 @@ import product from '../controllers/product.controller';
 import productinput from '../controllers/productinput.controller';
 import faq from '../controllers/faq.controller';
 import result from '../controllers/result.controller';
-// import resultserv from '../controllers/result.service';
+import productspg from '../controllers/products.controller';
 import RoutesConfig from '../routes';
 const App = 'Farmshare';
 
@@ -31,6 +31,7 @@ new Loader(App)
   .load(productinput)
   .load(faq)
   .load(result)
+  .load(productspg)
   .load(RoutesConfig);
 
 // Startup

@@ -36,11 +36,11 @@ video.fullscreen {
   top: 50%;
   left: 50%;
   min-width: 100%;
-  min-height: 100%;
+  min-height: 140%;
   height: auto;
   width: auto;
   z-index: -100;
-  transform: translate(-50%,-9%);
+  transform: translate(-50%,0%);
 }
 .stopfade {
    opacity: .5;
@@ -268,7 +268,37 @@ a#login-sign-in-link.login-link-text:hover {
   margin: 0 !important;
 
 }
-
+@media only screen and (min-width: 1290px) {
+#farmshareText {
+  font-size:200% !important;
+  }
+  .floatLeft{
+    position: absolute;
+    color: white !important;
+    margin-bottom: 0;
+    z-index: 40;
+    right: 87%;
+    transform: translate(0%, 1100%);
+    text-decoration: none !important;
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+    font-size: 140% !important;
+    font-weight: bold;
+  }
+  .floatRight {
+    position: absolute;
+    color: white !important;
+    margin-bottom: 0;
+    z-index: 40;
+    left: 89%;
+    transform: translate(0%, 1100%);
+    text-decoration: none !important;
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+    font-size: 140% !important;
+    font-weight: bold;
+  }
+}
 @media only screen and (min-width: 1100px) {
 #farmshareText {
   font-size:200% !important;

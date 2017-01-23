@@ -29,13 +29,19 @@
         </select><br>
       </div>
       <div class="form-group">
-         <label class="marginTop"for="isOrganic">Is this product organic?</label><br>
-         <select class="form-control" name="isOrganic" id="singleSelect" ng-model="product.selectOrg">
+        <label class="marginTop"for="isOrganic">Is this product organic?</label><br>
+        <select class="form-control" name="isOrganic" id="singleSelect" ng-model="product.selectOrg">
           <option value="">---Please select---</option>
           <option value="Organic">Organic</option>
           <option value="Non-Organic">Non-Organic</option>
         </select>
       </div>
+      <!-- <div class="form-group">
+        <label class="marginTop"for="additionalInfo">Is this product organic?</label><br>
+        <select class="form-control" name="isOrganic" id="singleSelect" ng-model="product.additionalInfo">
+        <textarea class="form-control" rows="4" cols="50" name="additionalInfo" ng-model='product.additionalInfo'></textarea>
+        </select>
+      </div> -->
         <a href='/#/farm/landing'><button class="btn btn-default" ng-click="product.submit()">Submit</button></a>
         <div id='closeButton'>
           <a href="/#/farm/landing"><button class="btn btn-default">Close</button></a>
